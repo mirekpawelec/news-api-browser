@@ -1,0 +1,104 @@
+nav {
+    position: relative;
+}
+#countrySelect {
+    width: 95%;
+    margin-bottom: 7px;
+    padding: 7px 0;
+    font-size: 14px;
+    text-align-last: center;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    width: 95%;
+    height: 2.2rem;
+    margin-bottom: 7px;
+    background-color: #133863;
+    color: #ffffff;
+    overflow: auto;
+    transition: margin-left 0.5s;
+}
+nav li:hover {
+    opacity: 0.8;
+    margin-left: 5%;
+}
+a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 2.1rem;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    transition-duration: .4s;
+}
+.active {
+    background-color: white;
+    color: black;
+    border: 2px solid  #133863;
+}
+.pagination {
+    padding: 0;
+    margin: 3rem 0 0 0;
+    overflow: hidden;
+}
+.pagination-btn, .pagination-input {
+    height: 2.2rem;
+    padding: inherit;
+    margin-bottom: 7px;
+}
+.pagination-btn-item {
+    width: 45%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white; 
+    color: black;
+    border: 1px solid #133863;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.pagination-btn-item:hover{
+    background-color:  #133863;
+    color: white;
+}
+.pagination-btn-item:not(:last-child) {
+    margin-right: 5%;
+}
+.pagination-input input,
+.pagination-input div,
+.pagination-input select {
+    height: 100%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    border: 1px solid #133863;
+}
+.pagination-input:not(:last-child) {
+    border-right: none
+}
+.pagination-input input {
+    width: 31.5%;
+    border-right: none
+}
+.pagination-input div {
+    width: 32%;
+    background-color: #CCD6DD;
+    line-height: 2.1rem;
+    white-space: nowrap;
+    border-left: none;
+}
+.pagination-input select {
+    width: 31.5%;
+    border-left: none;
+    text-align-last: center;
+} 

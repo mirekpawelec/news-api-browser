@@ -1,0 +1,48 @@
+<nav>
+  <div class="menu">
+    <select id="countrySelect" [(ngModel)]="countrySelected">
+      <option *ngFor="let country of countries" [ngValue]="country">
+        {{country}}
+      </option>
+    </select>  
+    <ul>
+      <li *ngFor="let category of categories">
+        <a routerLink="/" 
+           routerLinkActive="active"
+           [queryParams]="{country:countrySelected, category:category}">
+          {{category}}
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="col-s-12 pagination">
+    <div class="col-s-12 pagination-btn">
+      <button class="pagination-btn-item" type="button"
+              [disabled]="paginationParams.currentPageNo===1" 
+              (click)="previousPage()">
+        &laquo;
+      </button>
+      <button class="pagination-btn-item" type="button" 
+              [disabled]="paginationParams.currentPageNo===paginationParams.totalPagesNo" 
+              (click)="nextPage()">
+        &raquo;
+      </button>
+    </div>
+    <div class="col-s-12 pagination-input">
+      <input type="number" min="1" 
+              [max]="paginationParams.totalPagesNo" 
+              [value]="paginationParams.currentPageNo"
+              (change)="setPage($event.target.value)"/>
+      <div class="total-pages"> 
+        of {{paginationParams.totalPagesNo}}
+      </div>
+      <select (change)="setPerPage($event.target.value)"
+              [value]="paginationParams.itemPerPageNo">
+        <option value="5">5</option>
+        <option value="10">10</option>
+        <option value="15">15</option>
+        <option value="20">20</option>
+      </select>
+    </div>
+  </div>
+</nav>

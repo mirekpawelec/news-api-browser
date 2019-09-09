@@ -1,0 +1,20 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: news-browser
+
+logging:
+  level:
+    org: INFO, ERROR
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+    file: "%d %p %c{1.} [%t] %m%n"
+  file: ../logs/${spring.application.name}.log
+
+network:
+  domain: https://newsapi.org
+  api-key: 9bfc3a44dad24883b94243f6357786b4
+  api:
+    get-top-headlines-url: ${network.domain}/v2/top-headlines

@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "totalResults": 3,
+  "articles": [
+    {
+      "source": {
+        "id": null,
+        "name": "Spidersweb.pl"
+      },
+      "author": "https://www.facebook.com/lukaszkotkowskiprzedstawia",
+      "title": "Złe wieści dla fotografów, grafików i… graczy. Aktualizacja Windowsa 10 może uprzykrzyć wam życie - Spider's Web",
+      "description": "Kolejna aktualizacja Windowsa 10, kolejna wtopa. Czy choć raz ten proces przebiegł bez większej wpadki? Tym razem problem dotyczy majowej aktualizacji",
+      "url": "https://www.spidersweb.pl/2019/07/windows-10-aktualizacja-problem-kolory.html",
+      "urlToImage": "https://ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/spidersweb/2019/01/Surface-Studio-2-opinie-sw-13-1000x750.jpg",
+      "publishedAt": "2019-07-04T15:54:32Z",
+      "content": "Kolejna aktualizacja Windowsa 10, kolejna wtopa. Czy cho raz ten proces przebieg bez wikszej wpadki?\r\nTym razem problem dotyczy majowej aktualizacji rozwojowej, oznaczonej numerem 1903. Jak donosz uytkownicy na Reddicie, wraz z szeregiem naprawd uytecznych fu… [+3333 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Gsmmaniak.pl"
+      },
+      "author": "Konrad Bartnik",
+      "title": "Promocja: bezprzewodowe słuchawki Xiaomi za pół ceny i stylowy zegarek od Xiaomi z kodem rabatowym - gsmManiaK.pl",
+      "description": "Tanie słuchawki bezprzewodowe Redmi AirDots, klasyczny zegarek od Xiaomi, a może Redmi K20 w świetnej cenie? Wszystkie te urządzenia znajdziesz w promocji i kupisz taniej dzięki naszym kodom",
+      "url": "https://www.gsmmaniak.pl/1024246/promocja-bezprzewodowe-sluchawki-xiaomi-za-grosze-i-zegarek-od-xiaomi-w-swietnej-cenie-z-kodem-rabatowym/",
+      "urlToImage": "https://www.gsmmaniak.pl/wp-content/uploads/rtvmaniak/2019/05/Xiaomi-Redmi-Airdots-1.jpg",
+      "publishedAt": "2019-07-04T15:00:00Z",
+      "content": "Tanie suchawki bezprzewodowe Redmi AirDots, klasyczny zegarek od Xiaomi, a moe Redmi K20 w wietnej cenie? Wszystkie te urzdzenia znajdziesz w promocji i kupisz taniej dziki naszym kodom rabatowym.\r\nW dzisiejszej promocji mam co dla poszukujcych tanich bezprze… [+2153 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "Spidersweb.pl"
+      },
+      "author": "https://www.facebook.com/lukaszkotkowskiprzedstawia",
+      "title": "Apple idzie po rozum do głowy i porzuci klawiaturę motylkową. Jeśli chciałeś kupić MacBooka – poczekaj - Spider's Web",
+      "description": "Jeśli planujesz w tym roku kupić MacBooka – nie rób tego. Warto poczekać kilka miesięcy, bo wiele wskazuje na to, że Apple w końcu przyzna się do błędu i",
+      "url": "https://www.spidersweb.pl/2019/07/nowy-macbook-pro-klawiatura.html",
+      "urlToImage": "https://ocs-pl.oktawave.com/v1/AUTH_2887234e-384a-4873-8bc5-405211db13a2/spidersweb/2017/07/MacBook-Pro-2017-13-9.jpg",
+      "publishedAt": "2019-07-04T14:49:30Z",
+      "content": "Jeli planujesz w tym roku kupi MacBooka nie rób tego. Warto poczeka kilka miesicy, bo wiele wskazuje na to, e Apple w kocu przyzna si do bdu i naprawi najwiksz wad swoich laptopów.\r\nNo dobra, z tym przyznawaniem si do bdu nie bd przesadza, bo Apple nie jest f… [+4079 chars]"
+    }
+  ]
+}

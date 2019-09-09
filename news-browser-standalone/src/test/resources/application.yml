@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: news-browser
+
+network:
+  domain: https://newsapi.org
+  api-key: 9bfc3a44dad24883b94243f6357786b4
+  api:
+    get-top-headlines-url: ${network.domain}/v2/top-headlines

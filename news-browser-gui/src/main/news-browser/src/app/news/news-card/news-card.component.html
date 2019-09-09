@@ -1,0 +1,19 @@
+<article class="card-frame col-s-12 col-m-6 col-l-4">
+  <div class="card">
+    <div class="card-ïmage" [class.no-image]="article.imageUrl==null">
+        <img [src]="article.imageUrl" class="col-s-12" alt="">
+    </div>
+    <div class="card-body">
+      <div class="card-title"> {{article.title}} </div>
+      <div class="card-text"> {{article.description}} </div>
+    </div>
+    <div class="card-footer">
+      <a [href]="article.articleUrl" 
+         target="_blank">
+        Read the whole on {{article.sourceName}} 
+      </a>
+      <div class="fotter-date-box"> {{article.date}} </div>
+      <div class="fotter-author-box"> {{article.author || 'unknown'}} </div>
+    </div>
+  </div>
+</article>

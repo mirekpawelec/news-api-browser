@@ -1,0 +1,20 @@
+<div class="row">
+  <aside class="col-s-4 col-m-3 col-l-2">
+    <nws-news-nav #newsFilter 
+                  [countries]="parameters.countries" 
+                  [categories]="parameters.categories"
+                  [paginationParams]="paginationParams"
+                  (switchpage)="switchPage($event)"
+                  (page)="setPage($event)"
+                  (perpage)="setPerPage($event)">
+    </nws-news-nav>
+  </aside>
+  <section class="col-s-8 col-m-9 col-l-10">
+    <div class="col-s-12 filter-box">
+      <input type="text" id="filterKey" placeholder="Filter" [(ngModel)]="articlesFilterKey" (input)="articlesFiltering()"/>
+    </div>
+    <div class="col-s-12" *ngIf="singlePageArticles">
+      <nws-news-card [article]="article" *ngFor="let article of singlePageArticles"></nws-news-card>
+    </div>
+  </section>
+</div>

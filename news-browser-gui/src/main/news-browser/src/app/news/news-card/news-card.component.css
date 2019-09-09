@@ -1,0 +1,83 @@
+.card-frame {
+    max-width: 27rem;
+    margin: auto;
+    padding: 10px;
+}
+.card {
+    position: relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6);
+    top: -3px;
+}
+.card-ïmage {
+    overflow: auto;
+    height: 15rem;
+}
+.card-ïmage img {
+    max-height: 15rem;
+}
+.no-image {
+    background-color: #aaa;
+    width: 100%;
+    color: white;
+    text-align: center;
+    line-height: 15rem;
+    overflow: hidden;
+}
+.no-image::before {
+    content:  'NO IMAGE';
+}
+.card-body {
+    height: 12rem;
+    padding: 0 1rem;
+    text-align: justify;
+    overflow: hidden;
+}
+.card-body .card-title {
+    font-weight: 700;
+    padding: 0.5rem 0;
+    max-height: 5rem;
+}
+.card-text {
+    overflow: hidden;
+    max-height: 8rem;
+}
+.card-footer{
+    max-height: 4rem;
+}
+.card-footer a {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color:#133863;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 17px;
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+.card-footer a:hover {
+    opacity: .8;
+}
+.fotter-author-box {
+    float: right;
+    text-align: right;
+}
+.fotter-date-box,
+.fotter-author-box {
+    display: inline-block;
+    width: 50%;
+    height: 1.3rem;
+    font-size: 12px;
+    line-height: 1.2rem;
+    vertical-align: middle;
+    padding: .1rem .4rem 0.3rem .4rem; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
