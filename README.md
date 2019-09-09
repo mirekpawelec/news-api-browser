@@ -1,4 +1,4 @@
-#NEWS BROWSER, statements to run app:
+#NEWS-API-BROWSER, statements to run app:
 - clone the git repository
     git clone https://github.com/mirekpawelec/news-browser.git
 - move to the project directory
